@@ -37,13 +37,36 @@ $$
 $$
 
 the accompanying analysis gives the following refinement costs for estimating
-the mean to accuracy $\varepsilon$ with failure probability at most $\delta$:
+the mean to accuracy $\varepsilon$ with failure probability at most $\delta$.
+The three moment regimes have distinct rates:
 
-| Moment regime | Refinement sample complexity |
-| --- | ---: |
-| $k>2$ | $O_k\!\left(\frac{\sigma^2}{\varepsilon^2}\log\frac1\delta\right)$ |
-| $k=2$ | $O\!\left(\frac{\sigma^2}{\varepsilon^2}\left(1+\log\frac{\sigma}{\varepsilon}\right)\log\frac1\delta\right)$ |
-| $1<k<2$ | $O_k\!\left(\left(\frac{\sigma}{\varepsilon}\right)^{\frac{k}{k-1}}\log\frac1\delta\right)$ |
+**Finite-variance regime ($k>2$)**
+
+$$
+O_k\!\left(
+  \left(\frac{\sigma}{\varepsilon}\right)^2
+  \log\frac{1}{\delta}
+\right).
+$$
+
+**Critical regime ($k=2$)**
+
+$$
+O\!\left(
+  \left(\frac{\sigma}{\varepsilon}\right)^2
+  \left[1+\log\left(\frac{\sigma}{\varepsilon}\right)\right]
+  \log\frac{1}{\delta}
+\right).
+$$
+
+**Heavy-tail regime ($1<k<2$)**
+
+$$
+O_k\!\left(
+  \left(\frac{\sigma}{\varepsilon}\right)^{\frac{k}{k-1}}
+  \log\frac{1}{\delta}
+\right).
+$$
 
 Coarse localization contributes an additive
 $O_k(1+\log(\lambda/\sigma)+\log(1/\delta))$ term. The protocols assume that
