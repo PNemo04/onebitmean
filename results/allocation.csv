@@ -1,0 +1,13 @@
+k,allocation,objective,ratio_to_matched,terminal_index,objective_type
+3.0,matched,2.076319846051042,1.0,4.0,deterministic kth-moment envelope
+3.0,uniform,2.3749344395568346,1.1438191683587327,4.0,deterministic kth-moment envelope
+3.0,light-tail,2.076319846051042,1.0,4.0,deterministic kth-moment envelope
+3.0,heavy-tail,2.7975145916599455,1.3473427983557282,4.0,deterministic kth-moment envelope
+2.0,matched,133.12000000000003,1.0,8.0,deterministic kth-moment envelope
+2.0,uniform,133.12000000000003,1.0,8.0,deterministic kth-moment envelope
+2.0,light-tail,241.09724009823907,1.8111271041033579,8.0,deterministic kth-moment envelope
+2.0,heavy-tail,155.4634941527995,1.1678447577584095,8.0,deterministic kth-moment envelope
+1.5,matched,31633.3448376551,1.0,16.0,deterministic kth-moment envelope
+1.5,uniform,49576.21577905779,1.5672138382294685,16.0,deterministic kth-moment envelope
+1.5,light-tail,1121764.5905836064,35.46145993541289,16.0,deterministic kth-moment envelope
+1.5,heavy-tail,31633.3448376551,1.0,16.0,deterministic kth-moment envelope

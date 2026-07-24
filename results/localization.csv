@@ -1,0 +1,4 @@
+mean,trials,failures,empirical_failure_probability,clopper_pearson_95_upper,research_query_count,certified_query_count,profile,plan_fingerprint
+-150.0,2000,0,0.0,0.0014967448951882837,384,59915,research (empirical); certified count reported only,ce4b94095fb9925002d5bcb8a7ba9f0085f675f76a3a39f27c3fcaec920ce1ff
+3.0,2000,0,0.0,0.0014967448951882837,384,59915,research (empirical); certified count reported only,ce4b94095fb9925002d5bcb8a7ba9f0085f675f76a3a39f27c3fcaec920ce1ff
+151.0,2000,0,0.0,0.0014967448951882837,384,59915,research (empirical); certified count reported only,ce4b94095fb9925002d5bcb8a7ba9f0085f675f76a3a39f27c3fcaec920ce1ff

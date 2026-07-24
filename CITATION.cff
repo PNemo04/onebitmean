@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "Non-Adaptive One-Bit Mean Estimation"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Pnemo
+license: MIT
+preferred-citation:
+  type: article
+  title: "Interaction Is Unnecessary for Order-Optimal One-Bit Mean Estimation with General Queries"
+  authors:
+    - family-names: Miao
+      given-names: Yuchen
+      email: miaoyc@mails.neu.edu.cn
+      affiliation: "Northeastern University, China"
+  year: 2026
