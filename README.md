@@ -4,8 +4,8 @@ Reference implementations and reproducible numerical checks for fully
 non-adaptive one-bit mean estimation under finite-moment assumptions.
 
 This repository accompanies the manuscript
-*Interaction Is Unnecessary for Order-Optimal One-Bit Mean Estimation with
-General Queries*. It implements both refinement constructions in the paper
+*Universal Refinement without Interaction: Order-Optimal 1-Bit Mean
+Estimation*. It implements both refinement constructions in the paper
 behind one frozen-query interface: every one-bit query is fixed before any
 message is observed, while the decoder may reinterpret the stored bits after
 a coarse localization center becomes available.
@@ -180,12 +180,14 @@ small simulations and is not a theorem-certified replacement.
 ## Citation
 
 ```bibtex
-@misc{miao2026interaction,
-  title  = {Interaction Is Unnecessary for Order-Optimal One-Bit Mean
-            Estimation with General Queries},
-  author = {Miao, Yuchen},
-  year   = {2026},
-  note   = {Preprint}
+@misc{miao2026universalrefinementinteractionorderoptimal,
+  title = {Universal Refinement without Interaction: Order-Optimal 1-Bit Mean Estimation},
+  author = {Yuchen Miao},
+  year = {2026},
+  eprint = {2607.24358},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.IT},
+  url = {https://arxiv.org/abs/2607.24358},
 }
 ```
 
